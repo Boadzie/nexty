@@ -11,7 +11,7 @@ const Header = () => {
         <ul class="absolute top-0 left-0 right-0 bottom-0 flex p-4  justify-between items-start bg-black bg-opacity-40 text-white text-opacity-100">
           <li>
             <Link
-              className="text-3xl font-black hover:text-late-100 hover:text-blue-500 brightness-125"
+              className="text-3xl font-black lg:mx-8 hover:text-late-100 hover:text-blue-500 brightness-125"
               href="/"
             >
               Nexty
@@ -20,7 +20,7 @@ const Header = () => {
           <div>
             <li>
               <Link
-                className="hover:text-blue-500 font-bold text-2xl brightness-[10rem]"
+                className="hover:text-blue-500 lg:mx-8 font-black text-3xl brightness-[10rem]"
                 href="/movies"
               >
                 Movies
