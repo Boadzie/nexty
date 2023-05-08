@@ -1,13 +1,14 @@
 import React from "react";
+import Feature from "@/components/Feature";
 
 const HomePage = () => {
   return (
     <>
-      <section className="mx-4 lg:mx-[2.5rem]  min-h-[40rem] z-50  absolute top-[5rem] lg:top-[10rem]">
+      <section className=" mx-4 lg:mx-[2.5rem]  min-h-[40rem] z-50  absolute top-[5rem] lg:top-[10rem]">
         <h1 className="w-full mb-4 text-4xl font-black text-white opacity-100 lg:mb-0 brightness-100 my-14 lg:text-7xl">
           Unlimited movies, TV shows, <br /> and more
         </h1>
-        <div className="flex flex-col lg:items-start">
+        <div className="flex flex-col mt-2 lg:items-start">
           <p className="text-2xl font-bold text-white lg:text-3xl">
             Plans now start at US$2.99/month.
           </p>
@@ -21,7 +22,8 @@ const HomePage = () => {
           action=""
         >
           <input
-            className="w-[18rem] lg:w-[28rem] p-4 lg:p-5 bg-transparent rounded-sm ring-slate-400 focus:outline-none ring-1"
+            className="w-[18rem] text-white lg:w-[28rem] p-4 lg:p-5 bg-transparent rounded-sm ring-slate-400 focus:outline-none ring-1"
+            placeholder="Email address..."
             type="text"
           />
           <button
@@ -32,6 +34,7 @@ const HomePage = () => {
           </button>
         </form>
       </section>
+      <Feature />
     </>
   );
 };
