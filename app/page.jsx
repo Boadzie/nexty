@@ -1,5 +1,6 @@
 import React from "react";
 import Feature from "@/components/Feature";
+import FAQ from "@/components/FAQ";
 
 const HomePage = () => {
   return (
@@ -35,6 +36,7 @@ const HomePage = () => {
         </form>
       </section>
       <Feature />
+      <FAQ />
     </>
   );
 };
