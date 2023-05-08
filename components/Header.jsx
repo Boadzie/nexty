@@ -6,9 +6,9 @@ const Header = () => {
         <img
           src="https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/35b01c07-9009-43d3-bd56-ee16b48da1c8/GH-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg"
           alt="Your Image"
-          class="w-full h-[40rem]"
+          className="w-full brightness-[0.55] h-[40rem]"
         />
-        <ul class="absolute top-0 left-0 right-0 bottom-0 flex p-4  justify-between items-start bg-black bg-opacity-40 text-white text-opacity-100">
+        <ul className="absolute top-0 bottom-0 left-0 right-0 flex items-start justify-between p-4 text-white text-opacity-100 bg-[#000a3d] bg-opacity-40">
           <li>
             <Link
               className="text-3xl font-black lg:mx-8 hover:text-late-100 hover:text-blue-500 brightness-125"
