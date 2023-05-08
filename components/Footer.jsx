@@ -34,9 +34,9 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="username@site.com"
-                className="w-full pr-16 input input-bordered"
+                className="w-full pr-44 input text-slate-500 input-bordered"
               />
-              <button className="absolute top-0 right-0 bg-red-600 rounded-l-none btn">
+              <button className="absolute top-0 right-0 font-bold text-white bg-red-600 rounded-l-none btn">
                 Subscribe
               </button>
             </div>
