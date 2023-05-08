@@ -3,7 +3,7 @@ import React from "react";
 const FAQ = () => {
   return (
     <>
-      <section className="container px-4 mx-auto py-14">
+      <section className="container px-4 py-24 mx-auto">
         <h1 className="my-4 text-4xl text-white lg:text-5xl">
           Frequently Asked Questions
         </h1>
