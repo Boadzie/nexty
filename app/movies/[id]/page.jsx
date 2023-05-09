@@ -11,10 +11,10 @@ const MoviePage = async ({ params }) => {
   //   console.log(movie);
   return (
     <>
-      <section className="container px-4 py-4 mx-auto">
-        <div className="grid h-[25rem] grid-cols-1 place-content-center lg:grid-cols-3">
+      <section className="container px-4 mx-auto lg:py-4 py-14 ">
+        <div className="grid h-[25rem] my-44 lg:my-14 grid-cols-1 place-content-center lg:grid-cols-3">
           <div
-            className="p-4 font-bold text-slate-600 bg-slate-100"
+            className="p-4 font-bold ring-1  text-white bg-[#000a3d]"
             key={movie.id}
           >
             <img
