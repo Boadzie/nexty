@@ -15,14 +15,14 @@ const MoviesPage = async () => {
 
   return (
     <>
-      <section className="container px-4 py-4 mx-auto">
+      <section className="container px-4 pt-4 pb-24 mx-auto ">
         <h1 className="p-2 mb-4 text-5xl ">Popular Movies</h1>
 
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 ">
           {results.map((m) => {
             return (
               <div
-                className="p-4 font-bold rounded-md text-slate-600 bg-slate-100"
+                className="p-4 font-bold rounded-md ring-1  text-white bg-[#000a3d]"
                 key={m.id}
               >
                 <Link href={`/movies/${m.id}`}>
